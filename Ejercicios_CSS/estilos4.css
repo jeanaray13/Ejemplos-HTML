@@ -1,0 +1,52 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+#general{
+    background-color: darkgray;
+    width: 100%;
+    height: 100%;
+}
+
+#superior{
+    background-color: green;
+    width: 100%;
+    height: 20%;
+}
+
+#inferior{
+    background-color: darkgray;
+    width: 100%;
+    height: 80%;
+}
+
+#izquierda{
+    background-color: blue;
+    width: 20%;
+    height: 80%;
+}
+
+#derecha{
+    background-color: red;
+    width: 80%;
+    height: 100%;
+}
+
+#bloque_superior{
+    background-color: red;
+    width: 50%;
+    height: 100px;
+}
+
+.bloque_amarillo{
+    background-color: yellow;
+    width: 33%;
+    height: 50px;
+}
+
+#borde_inferior{
+    background-color: purple;
+    width: 100%;
+    height: 50px;
+}

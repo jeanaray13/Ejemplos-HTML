@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #amarillo{
+                background-color: white; 
+                width:100px; 
+                height:100px; 
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="like_h1">Likes: 0</h1>
+        <br>
+        <input type="button" value="Like" id="like" onclick="moreLike(this)"/>
+        <script type="text/javascript">
+            var cont = 0;
+            function moreLike(element){
+                if(element.value=="Like"){
+                    cont=cont+1;
+                    document.getElementById("like_h1").innerHTML= "Likes: "+cont;
+                }
+            }
+        </script>
+        <br>
+
+
+
+        <div id="amarillo">
+            
+        </div>
+        <br>
+        <input type="button" value="Turn Off" id="btnTurn" onclick="changeState(this)"/>
+        <script type="text/javascript">
+            function changeState(element){
+                if(element.value=="Turn Off"){
+                    element.value = "Turn On";
+                    document.getElementById("amarillo").style.backgroundColor = "yellow";
+                }
+                else{
+                    element.value = "Turn Off";
+                    document.getElementById("amarillo").style.backgroundColor = "white";
+                }
+            }
+        </script>
+
+        <div>
+            <img id="remove_Bra" onclick="eliminar1()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/300px-Flag_of_Brazil.svg.png" alt="Brasil">
+            <img id="remove_Arg" onclick="eliminar2()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png" alt="Argentina">
+            <img id="remove_Ec" onclick="eliminar3()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_Ecuador_%281900%E2%80%932009%29.svg/300px-Flag_of_Ecuador_%281900%E2%80%932009%29.svg.png" alt="Ecuador">
+            <script type="text/javascript">
+                function eliminar1(){
+                    document.getElementById("remove_Bra").outerHTML = "";
+                    
+                }
+                function eliminar2(){
+                    
+                    document.getElementById("remove_Arg").outerHTML = "";
+                    
+                }
+                function eliminar3(){
+                    
+                    document.getElementById("remove_Ec").outerHTML = "";
+                }
+                
+             </script>
+        </div>
+
+
+    </body>
+</html>

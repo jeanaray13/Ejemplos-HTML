@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="estilo10.css">
+
+</head>
+<body>
+    <div class="formulario">
+        <div class="encabezado">
+            <div class="columns">
+                <div class="titulo">Dojonary</div>
+                <div class="buscador"><input class="txtBuscar" type="text" label="textBuscar" value="Search"></div>
+                <div class="seccionBtn"><button class="btnLogin" name="Login" id="botonLogin" onclick="changeBtn(this);">Login</button></div>
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="columna1">
+
+                <div class="cuadros" id="cuadro1">
+                    <div class="ladoI">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <input class="btnLike" type="button" value="13 likes">
+
+                    </div>
+                    <div class="ladoD">
+                        <p class="txtD">A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                    </div>
+
+                </div>
+                <div class="cuadros" id="cuadro2">
+                    <div class="ladoI">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <input class="btnLike" type="button" value="37 likes">
+
+                    </div>
+                    <div class="ladoD">
+                        <p class="txtD">A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columna2">
+                <div class="cuadro3" id="cuadro3Id">
+                    <p class="txt3">Dojonary is defined by <span class="styleYou">YOU</span></p>
+                    <div class="seccionAdd">
+                        <input class="btnAdd" type="button" value="Add Definition" id="botonAddDef" onclick="eliminar(this);">
+                    </div> 
+                </div>
+
+            </div>
+        </div>
+    
+
+    </div>
+
+    <script>
+        function changeBtn(element){
+            if(element.innerText == "Login"){
+                document.getElementById("botonLogin").innerText = "Logout";
+            }
+            else{
+                document.getElementById("botonLogin").innerText = "Login";
+            }
+        }
+        function eliminar(element){
+            element.remove();
+        }
+    </script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!--Página para crear la Interfaz 1: Profile: Jane Doe-->
+<!--Realizado por: Jean Carlos Suárez-->
+
+<!--Tipo de documento: HTML-->
+<!DOCTYPE html>
+<!--Idioma HTML-->
+<html lang="en">
+    <!--Encabezado-->
+    <head>
+        <!--Configuración inicial-->
+
+        <!--Codificación de caracteres-->
+        <meta charset="utf-8">
+        <!--Compatibilidad con otros navegadores-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--Formato de escalabilidad de la página-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Referencia a los estilos css-->
+        <link rel="stylesheet" type="text/css" href="estilos1.css">
+
+        <!--Título-->
+        <title>Profile - Jane Doe</title>
+    </head>
+    <!--Cuerpo-->
+    <body>
+        <!--Menú de la página principal-->
+        <div id="menu">
+            <!--Sección de navegación-->
+            <div id="navegacion">
+                <label style="font-size: 40px;">Profile</label>
+                <a href="#">Home</a>
+                <a href="#"><span style="color: white;">My Profile</span></a>
+                <a href="#">Find Connections</a>
+            </div>
+            <div id="boton">
+                <input id="btn_sesion" type="button" value="Sign Out"/>
+            </div>
+        </div>
+        <!--Sección del centro de la página principal-->
+        <div id="contenido">
+            <!--Sección de la columna 1-->
+            <div id="columna1">
+                <!--Sección del primer cuadro-->
+                <div class="cuadro" id="cuadro1">
+                    <!--Sección superior dentro del cuadro 1-->
+                    <div id="celeste">
+                        <img id="foto" src="img/user.jpg" alt="Foto Usuario">
+                    </div>
+                    <!--Sección inferior dentro del cuadro 1-->
+                    <div id="perfil">
+                        <label style="font-size: 24pt;">Jane Doe</label>
+                        <p style="font-size: 20pt;"><img id="ubicacion" src="img/ubicacion.jpg" alt="Ubicacion">Seattle</p>
+                        <p class="descripcion">Developer | Engineer | Problem Solver</p>
+                        <p class="descripcion">Master of shadows and the Internet!</p>
+                        <a href="#" id="editarPerfil"><img id="config" src="img/ajuste_azul.png" alt="Tuerca Azul">edit profile</a>
+                    </div>
+                </div>
+                <!--Sección del segundo cuadro-->
+                <div class="cuadro" id="cuadro2">
+                    <!--Contenido del cuadro 2-->
+                    <label id="titulo_cuadro2">Education</label>
+                    <!--Texto del cuadro 2-->
+                    <div id="educacion">
+                            <p class="sub_educacion" id="id_curso">Coding Dojo - Full Stack Bootcamp</p>
+                            <p class="sub_educacion" id="fecha_curso">Dec 2019 - Mar 2020</p>
+                            <p class="sub_educacion">Triple black belt in Python, MERN, and C#...</p>
+                        </div>
+                    </div>
+                </div>
+            <!--Sección de la columna-->
+            <div id="columna2">
+                <!--Sección del tercer cuadro-->
+                <div class="cuadro" id="cuadro3">
+                    <!--Sección del bloque del título del cuadro 3-->
+                    <div id="titulo3">
+                        <div id="num_2">2</div>
+                        <label id="titulo_3">Connection Requests</label>
+                    </div>
+                    <!--Sección del contenido del cuadro-->
+                    <div>
+                        <!--Sección del nombre y la foto de los usuarios-->
+                        <div class="amigos_conectados">
+                            <div class="nombre_foto">
+                                <img class="foto_usuario" src="img/user.jpg" alt="User_ToodE">
+                                <p class="nombre_usuario">Todd E</p>
+                            </div>
+                            <div class="visto_equis">
+                                <img class="visto" src="img/check.png" alt="check">
+                                <img class="equis" src="img/x.png" alt="x">
+                            </div>
+                        </div>
+                        <div class="amigos_conectados">
+                            <div class="nombre_foto">
+                                <img class="foto_usuario" src="img/user.jpg" alt="User_PhilK">
+                                <p class="nombre_usuario">Phil K</p>
+                            </div>
+                            <div class="visto_equis">
+                                <img class="visto" src="img/check.png" alt="check">
+                                <img class="equis" src="img/x.png" alt="X">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Sección del cuarto cuadro-->
+                <div class="cuadro" id="cuadro4">
+                    <!--Sección del bloque de título del cuadro 4-->
+                    <div id="titulo4">
+                        <div id="num_Conexiones">500+</div>
+                        <div id="titulo_4">Your Connections</div>
+                    </div>
+                    <!--Sección del bloque del contenido del cuadro 4-->
+                    <div>
+                        <p class="conectados"><img class="foto_usuario" src="img/user.jpg" alt="User_AdrienD">     Adrien D</p>
+                        <p class="conectados"><img class="foto_usuario" src="img/user.jpg" alt="User_AnneJ">     Anne J</p>
+                        <p class="conectados"><img class="foto_usuario" src="img/user.jpg" alt="User_AlayneT">     Alayne T</p>
+                        <p class="conectados"><img class="foto_usuario" src="img/user.jpg" alt="User_ArryY">     Arry Y</p>
+                    </div>
+                    <!--Sección final del cuadro 4-->
+                    <div id="ver_mas">View More</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    border: 0;
+    background-color: aquamarine;
+}
+
+
+#titulo{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+}
+
+#azul{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-evenly;
+    margin: 2% 2% 2% 2%;
+}
+
+#morado{
+    display: flex;
+    background-color: violet;
+    justify-content: space-evenly;
+    margin: 2% 2% 2% 2%;
+}
+#amarillo{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-evenly;
+    margin: 2% 2% 2% 2%;
+}
+
+#parrafo{
+    text-align: center;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}

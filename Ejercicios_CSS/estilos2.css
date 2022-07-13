@@ -1,0 +1,41 @@
+
+
+div{
+    margin: 0 25px auto 100px;
+    text-align: left;
+}
+
+.buscar{
+    border-radius: 25px;
+    color: green;
+    border-color: green;
+    width: 150px;
+    height: 30px;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.question{
+    border-radius: 100%;
+    color:white;
+    background-color: green;
+    width: 6%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.session{
+    color:white;
+    background-color: rgb(0, 119, 255);
+    width:15%;
+    padding: 10px;
+    box-shadow: 8px 8px black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: bold;
+}

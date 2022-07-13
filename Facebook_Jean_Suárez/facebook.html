@@ -1,0 +1,304 @@
+<!--Página de crear cuenta de Facebook-->
+<!--Realizado por: Jean Carlos Suárez-->
+
+<!--Tipo de documento: HTML-->
+<!DOCTYPE html>
+<!--Idioma HTML-->
+<html lang="es">
+    <!--Encabezado-->
+    <head>
+        <!---------------------Configuración inicial-------------------------->
+        <!--Codificación de caracteres-->
+        <meta charset="UTF-8">
+        <!--Compatibilidad con los navegadores-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--Formato de escalabilidad de la página-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Referencia a los estilos css-->
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+        <!--Ícono de Facebook-->
+        <link rel="icon" href="img/facebook_icon.ico"/>
+
+        <!--Título-->
+        <title>Facebook - Entrar o registrarse</title>
+    </head>
+    <!--Cuerpo-->
+    <body>
+        <!--Creación del formulario-->
+        <form class="login">
+            <!--Crear sección-->
+            <div>
+                <!--Carga de la imagen del botón X-->
+                <img src="img/cerrar.png" alt="Cerrar" style="width: 20px; float:right"/>
+                <!--Uso de escritura label-->
+                <label style="font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif; font-size: 32px; line-height: 38px;">
+                    <strong>Registrarte</strong></label>
+                <br/>
+                <label style="color:#606770">Es rápido y fácil.</label>
+                <br/>
+                <!--Línea de espacio-->
+                <hr/>
+            </div>
+            
+            <div>
+                <!--Entradas de texto-->
+                <input type="text" name="first_name" placeholder="Nombre" class="nombre_apellido"/>
+                <input type="text" name="lastname" placeholder="Apellidos" class="nombre_apellido"/>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <input type="text" name="correo" placeholder="Número de móvil o correo electrónico" class="correo_contraseña"/>
+                <br/>
+                <br/>
+            </div>   
+            <div>
+                <!--Entrada de texto para el uso de contraseñas-->
+                <input type="password" name="contraseña" placeholder="Contraseña nueva" class="correo_contraseña"/>
+            </div>        
+            <div>
+                <br/>
+                <label style="font-size:12px;">Fecha de nacimiento</label>
+                <!------------Uso de checkbox para realizar una ventana modal------------>
+                <input type="checkbox" id="btn-modal"/>
+                <label for="btn-modal" class="lbl-modal">
+                <!--Carga de la imagen-->
+                <img src="img/pregunta.jpg" alt="Pregunta" style="width: 10px;"/></label>
+                <!--Contenido para la ventana modal-->
+                <div class="modal">
+                    <div class="contenedor">
+                        <label for="btn-modal" style="font-family:sans-serif; font-size: 13px; color: rgb(150, 135, 135); "><strong>Proporcionar tu fecha de nacimiento</strong> te 
+                            ayuda a asegurarte de obtener una experiencia en Facebook adecuada a tu edad. Si quieres cambiar quién lo ve, 
+                            ve a la sección "Información" de tu perfil. Para obtener más detalles, visita nuestra 
+                            <a href="https://www.facebook.com/about/privacy/update" target="_blank" style="text-decoration:none; color:#1877f2;">Política de datos</a>.
+                        </label>
+                    </div>
+                </div>
+            </div> 
+            <div>
+                <!--Uso del combo box para el día-->
+                <select name="day" class="fecha">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <!--Selección por defecto-->
+                    <option selected="selected">20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <!--Uso del combo box para el mes-->
+                <select name="month" class="fecha">
+                    <option>ene</option>
+                    <option>feb</option>
+                    <option>mar</option>
+                    <option>abr</option>
+                    <!--Selección por defecto-->
+                    <option selected="selected">may</option>
+                    <option>jun</option>
+                    <option>jul</option>
+                    <option>ago</option>
+                    <option>sep</option>
+                    <option>oct</option>
+                    <option>nov</option>
+                    <option>dic</option>
+                </select>
+                <!--Uso del combo box para el año-->
+                <select name="year" class="fecha">
+                    <!--Selección por defecto-->
+                    <option selected="selected">2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                    <option>2007</option>
+                    <option>2006</option>
+                    <option>2005</option>
+                    <option>2004</option>
+                    <option>2003</option>
+                    <option>2002</option>
+                    <option>2001</option>
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                    <option>1997</option>
+                    <option>1996</option>
+                    <option>1995</option>
+                    <option>1994</option>
+                    <option>1993</option>
+                    <option>1992</option>
+                    <option>1991</option>
+                    <option>1990</option>
+                    <option>1989</option>
+                    <option>1988</option>
+                    <option>1987</option>
+                    <option>1986</option>
+                    <option>1985</option>
+                    <option>1984</option>
+                    <option>1983</option>
+                    <option>1982</option>
+                    <option>1981</option>
+                    <option>1980</option>
+                    <option>1979</option>
+                    <option>1978</option>
+                    <option>1977</option>
+                    <option>1976</option>
+                    <option>1975</option>
+                    <option>1974</option>
+                    <option>1973</option>
+                    <option>1972</option>
+                    <option>1971</option>
+                    <option>1970</option>
+                    <option>1969</option>
+                    <option>1968</option>
+                    <option>1967</option>
+                    <option>1966</option>
+                    <option>1965</option>
+                    <option>1964</option>
+                    <option>1963</option>
+                    <option>1962</option>
+                    <option>1961</option>
+                    <option>1960</option>
+                    <option>1959</option>
+                    <option>1958</option>
+                    <option>1957</option>
+                    <option>1956</option>
+                    <option>1955</option>
+                    <option>1954</option>
+                    <option>1953</option>
+                    <option>1952</option>
+                    <option>1951</option>
+                    <option>1950</option>
+                    <option>1949</option>
+                    <option>1948</option>
+                    <option>1947</option>
+                    <option>1946</option>
+                    <option>1945</option>
+                    <option>1944</option>
+                    <option>1943</option>
+                    <option>1942</option>
+                    <option>1941</option>
+                    <option>1940</option>
+                    <option>1939</option>
+                    <option>1938</option>
+                    <option>1937</option>
+                    <option>1936</option>
+                    <option>1935</option>
+                    <option>1934</option>
+                    <option>1933</option>
+                    <option>1932</option>
+                    <option>1931</option>
+                    <option>1930</option>
+                    <option>1929</option>
+                    <option>1928</option>
+                    <option>1927</option>
+                    <option>1926</option>
+                    <option>1925</option>
+                    <option>1924</option>
+                    <option>1923</option>
+                    <option>1922</option>
+                    <option>1921</option>
+                    <option>1920</option>
+                    <option>1919</option>
+                    <option>1918</option>
+                    <option>1917</option>
+                    <option>1916</option>
+                    <option>1915</option>
+                    <option>1914</option>
+                    <option>1913</option>
+                    <option>1912</option>
+                    <option>1911</option>
+                    <option>1910</option>
+                    <option>1909</option>
+                    <option>1908</option>
+                    <option>1907</option>
+                    <option>1906</option>
+                    <option>1905</option>
+                </select>
+            </div>
+            <div>
+                <br/>
+                <label style="font-size: 12px;">Género</label>
+                <!------------Uso de checkbox para realizar una ventana modal------------>
+                <input type="checkbox" id="btn-modal2"/>
+                <label for="btn-modal2" class="lbl-modal2">
+                <img src="img/pregunta.jpg" alt="Pregunta" style="width: 10px;"/></label>
+                <div class="modal2">
+                    <div class="contenedor2">
+                        <label for="btn-modal2" style="font-family:sans-serif; font-size: 13px; color: rgb(150, 135, 135); ">Puedes cambiar más adelante quién verá tu género en el perfil. 
+                            Selecciona "Personalizado" para elegir otro género o si prefieres no especificarlo.
+                        </label>
+                    </div>
+                </div>
+            </div> 
+            <!------------Uso del radio para la selección de géneros---------->
+            <div class="mujer">
+                <label>Mujer</label>
+                <input type="radio" name="gender" value=""/>
+                
+            </div>
+            <div class="hombre"> 
+                <label>Hombre</label>
+                <input type="radio" name="gender" value=""/>
+                
+            </div>
+            <div class="personalizado">
+                
+                <label>Personalizado</label>
+                <input type="radio" name="gender" value=""/>
+            </div>
+            <!--Salto de espacio-->
+            <br/>
+            <br/>
+            <br/>
+            <!--Sección de términos y condiciones-->
+            <div>
+                <p style="font-family:sans-serif; font-size: 11px; color: darkgray;">Al hacer clic en Registrarte, aceptas 
+                    las <a href="https://www.facebook.com/legal/terms/update" target="_blank" style="text-decoration:none; color:#1877f2;">Condiciones</a>, la 
+                    <a href="https://www.facebook.com/about/privacy/update" target="_blank" style="text-decoration:none; color:#1877f2;">Política de datos</a> y la 
+                    <a href="https://www.facebook.com/policies/cookies/" target="_blank" style="text-decoration:none; color:#1877f2;">Política de cookies</a>. Es posible 
+                    que te enviemos notificaciones por SMS que podrás desactivar cuando quieras</p>
+            </div>
+            <!--Botón Registrase-->
+            <div>
+                <button style="background-color: #00a400; font-size: 18px; border-radius: 5px; width: 200px; padding: 5px; 
+                color: #fff; top: 50%; left: 50%; align-items: center; align-content: center; transform: translate(50%,10%);">
+                <strong>Registrarte</strong></button>
+            </div>
+        </form>
+    </body>
+</html>

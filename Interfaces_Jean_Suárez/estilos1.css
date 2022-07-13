@@ -1,0 +1,300 @@
+/*Archivo para la configuración de estilos CSS*/
+/*Realizado por: Jean Carlos Suárez*/
+
+/*Configuración del cuerpo HTML*/
+body{
+    font-weight:bold; /*Tipo de texto*/
+    font-family:cursive; /*Tipo de fuente*/
+}
+
+/*-----------------------Barra de navegación-----------------------------*/
+
+/*Configuración del menú de la página principal*/
+#menu{
+    background-color: black; /*Fondo*/
+    color: white; /*Color de texto*/
+    padding: 8px; /*Tamaño de espacio de relleno*/
+    font-size: 14pt; /*Tamaño de texto*/
+    display: flex; /*Establece el tipo del elemento HTML*/
+    flex-direction:row; /*Dirección del elemento*/
+    justify-content: center; /*Alineación de los elementos*/
+}
+
+/*Configuración para la barra de navegación*/
+#navegacion{
+    width: 50%; /*Ancho*/
+    margin: 10px 0 0 30px; /*Margen: Arriba, derecha, abajo, izquierda*/
+    padding: 5px 10px; /*Tamaño de espacio de relleno*/
+    display: flex; /*Establece el tipo del elemento HTML*/
+    flex-direction:row; /*Dirección del elemento*/
+    justify-content:space-between; /*Alineación de los elementos*/
+}
+
+/*Configuración de los enlaces*/
+a{
+    text-decoration: none; /*Elimina el subrayado del texto*/
+    color: darkgray; /*Color del texto*/
+    margin-top: 15px; /*Margen superior*/
+}
+
+/*Configuración para el botón de iniciar sesión*/
+#boton{
+    width: 50%; /*Ancho*/
+    display: flex; /*Establece el tipo del elemento HTML*/
+    justify-content:flex-end; /*Dirección del elemento*/
+    margin-right: 55px; /*Margen derecho*/
+}
+
+#btn_sesion{
+    background-color: #048fa8; /*Fondo del botón*/
+    color: white; /*Color de texto*/
+    margin: 10px 0 10px 0; /*Margen del botón*/
+    width: 25%; /*Ancho*/
+    font-size: 18px; /*Tamaño del texto*/
+    padding-left: 15px; /*Tamaño de espacio izquierdo*/
+    padding-right: 15px; /*Tamaño de espacio derecho*/
+}
+
+/*Configuración del centro de la página principal*/
+#contenido{
+    display: flex; /*Establece el tipo del elemento HTML*/
+    flex-direction: row; /*Dirección del elemento*/
+    justify-content: space-between; /*Alineación de los elementos*/
+}
+
+/*--------------------------------Columna Izquierda---------------------------*/
+
+/*Configuración de la columna izquierda*/
+#columna1{
+    width: 50%; /*Ancho*/
+    margin-left: 50px; /*Margen izquierda*/
+}
+
+/*Configuración para los recuadros*/
+.cuadro{
+    margin-top: 30px; /*Margen superior*/
+    border: 3px solid grey; /*Color y lineado del borde*/
+}
+
+/*--------------------Cuadro 1------------------------------*/
+
+/*Configuración del cuadro superior de la columna izquierda*/
+#cuadro1{
+    height: 70%; /*Largo*/
+}
+
+/*Configuración de la parte superior del cuadro superior*/
+#celeste{
+    background-color: #048fa8; /*Fondo*/
+    height: 25%; /*Largo*/
+}
+
+/*Configuración de la foto del usuario en el cuadro superior de la columna izuqierda*/
+#foto{
+    position: absolute; /*Posición de la imagen*/
+    height: 150px; /*Largo*/
+    width: 150px; /*Ancho*/
+    top: 180px; /*Superior*/
+    left: 100px; /*Izquierda*/
+    border-radius: 70px; /*Borde de las esquinas*/
+    
+}
+
+/*Configuración de la parte inferior del cuadro superior de la columna izquierda*/
+#perfil{
+    margin: 70px 0 0 40px; /*Margen: Arriba, derecha, abajo, izquierda*/
+}
+
+/*Configuración de la imagen de ubicación*/
+#ubicacion{
+    width: 25px; /*Ancho*/
+    height: 25px; /*Largo*/
+}
+
+/*Configuración de la descripción*/
+.descripcion{
+    font-size: 16pt; /*Tamaño del texto*/
+    line-height: 80%; /*Establecimiento de la altura*/
+}
+
+/*Configuración del enlace para editar perfil*/
+#editarPerfil{
+    font-size: 14pt; /*Tamaño del texto*/
+    color: #05519c; /*Color del texto*/
+    text-decoration:underline; /*Decoración subrayada*/
+    
+}
+
+/*Configuración para el ícono de configuración*/
+#config{
+    width: 25px; /*Ancho*/
+    height: 25px; /*Largo*/
+    padding-right: 6px; /*Tamaño del espacio de relleno derecho*/
+}
+
+/*------------------------Cuadro 2--------------------------------*/
+
+/*Configuración para el segundo cuadro (columna izquierda)*/
+#cuadro2{
+    border-bottom: none; /*Botón del borde*/
+    font-size: 14pt; /*Tamaño del texto*/
+    height: 27%;
+}
+
+/*Configuración para el título del segundo cuadro*/
+#titulo_cuadro2{
+    background-color: #2e2d2d; /*Color de fondo*/
+    padding: 7px; /*Tamaño del espacio de relleno*/
+    padding-left: 40px; /*Tamaño del espacio de relleno izquierdo*/
+    border: 1px solid grey; /*Color y lineado del borde*/
+    color: white; /*Color del texto*/
+    border-left: 1px; /*Borde izquierdo*/
+}
+/*Configuración para el contenido del segundo cuadro*/
+#educacion{
+    padding-left: 40px; /*Tamaño de espacio izquierdo*/
+    padding-right: 14px; /*Tamaño de espacio derecho*/
+}
+
+.sub_educacion{
+    line-height: 80%;
+}
+
+#id_curso{
+    font-size: 16pt;
+}
+
+#fecha_curso{
+    color: #adababe8;
+}
+
+/*-------------------------------Columna Derecha---------------------------*/
+
+/*Configuración para la columna derecha*/
+#columna2{
+    width: 35%; /*Ancho*/
+    margin-right: 75px; /*Tamaño del margen derecho*/
+}
+
+/*------------------------------Cuadro 3--------------------------*/
+
+/*Configuración del tercer cuadro*/
+#cuadro3{
+    font-size: 14pt; /*Tamaño del texto*/
+}
+
+/*Configuración de la sección del título del tercer cuadro*/
+#titulo3{
+    background-color: #2e2d2d; /*Color de fondo*/
+    padding: 18px; /*Tamaño del espacio de relleno*/
+    padding-left: 20px; /*Tamaño de espacio izquierdo*/
+    display: flex; /*Establece el tipo del elemento HTML*/
+    justify-content: flex-start; /*Alineación de los elementos*/
+    color: white; /*Color de texto*/
+}
+
+/*Configuración del ícono del tercer cuadro*/
+#num_2{
+    color:#2e2d2d; /*Color del texto*/
+    background-color: white; /*Color de fondo*/
+    padding: 6px; /*Tamaño de espacio de relleno*/
+    padding-left: 14px; /*Tamaño de espacio izquierdo*/
+    padding-right: 14px; /*Tamaño de espacio derecho*/
+    border-radius: 30px 30px 30px 30px; /*Tamaño de las esquinas del borde*/
+}
+
+/*Configuración del título*/
+#titulo_3{
+    padding-left: 20px; /*Tamaño de espacio izquierdo*/
+}
+
+/*Configuración del contenido del tercer cuadro*/
+.amigos_conectados{
+    display: flex; /*Establece el tipo del elemento HTML*/
+    justify-content: space-between; /*Alineación de los elementos*/
+    margin-top: 8px; /*Margen superior*/
+}
+
+/*Configuración del nombre y la foto*/
+#nombre_foto{
+    display: flex; /*Establece el tipo del elemento HTML*/
+    flex-direction: row; /*Dirección del elemento*/
+}
+
+/*Configuración para la foto y nombre del usuario*/
+.foto_usuario{
+    height: 50px; /*Largo*/
+    width: 50px; /*Ancho*/
+    padding-left: 20px; /*Tamaño de espacio izquierdo*/
+    vertical-align:middle; /*Alineación vertical*/
+}
+
+.nombre_usuario{
+    padding-left: 9px;   
+}
+
+/*Configuración de los íconos: Visto y Equis*/
+.visto_equis{
+    display: flex; /*Establece el tipo del elemento HTML*/
+    padding-right: 20px; /*Tamaño de espacio derecho*/
+}
+
+.visto{
+    height: 50px;
+    width: 50px;
+    padding-right: 4px;
+}
+
+.equis{
+    height: 47px;
+    width: 47px;
+}
+
+/*-----------------------------Cuadro 4-----------------------*/
+
+/*Configuración del cuarto cuadro*/
+#cuadro4{
+    font-size: 14pt; /*Tamaño del texto*/
+}
+
+/*Configuración de la sección del título del cuarto cuadro*/
+#titulo4{
+    color: white; /*Color del texto*/
+    background-color: #2e2d2d; /*Color de fondo*/
+    padding: 18px; /*Tamaño de espacio de relleno*/
+    padding-left: 20px; /*Tamaño de espacio izquierdo*/
+    display: flex; /*Establece el tipo del elemento HTML*/
+    justify-content: flex-start; /*Alineación de los elementos*/
+}
+
+/*Configuración del ícono del tercer cuadro*/
+#num_Conexiones{
+    color:#2e2d2d; /*Color de texto*/
+    background-color:  white; /*Color de fondo*/
+    padding: 5px; /*Tamaño de espacio de relleno*/
+    padding-top: 1px; /*Tamaño de espacio superior*/
+    padding-bottom: 1px; /*Tamaño de espacio inferior*/
+    padding-right: 10px; /*Tamaño de espacio derecho*/
+    padding-left: 10px; /*Tamaño de espacio izquierdo*/
+    border-radius: 100px/50px; /*Borde de las esquinas*/
+}
+
+/*Configuración del título*/
+#titulo_4{
+    padding-left: 20px; /*Tamaño de espacio izquierdo*/
+}
+
+/*Configuración de la sección de personas conectadas*/
+.conectados{
+    margin-top: 12px; /*Margen superior*/
+    margin-bottom: 12px; /*Margen inferior*/
+}
+
+/*Configuración para la sección de "Ver Más"*/
+#ver_mas{
+    color: #05519c; /*Color del texto*/
+    border-top: 3px solid grey; /*Color y lineado del borde*/
+    text-decoration:underline; /*Decoración del texto*/
+    padding: 15px; /*Tamaño de espacio de relleno*/
+    padding-left: 20px; /*Tamaño de espacio izquierdo*/
+}

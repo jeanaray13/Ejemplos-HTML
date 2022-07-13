@@ -1,0 +1,173 @@
+/*Archivo para la configuración de estilos CSS*/
+/*Realizado por: Jean Carlos Suárez*/
+
+/*Configuración para establecer fondo de pantalla*/
+body{
+    margin:0; /*Margen*/
+    padding:0; /*Relleno*/
+    width: 100%; /*Ancho*/
+    height: 100%; /*Largo*/
+    position: relative; /*Posición de la sección indicada*/
+    min-height: 100vh; /*Mínimo largo*/
+    background-image: url(img/background_facebook.jpg); /*Imagen de fondo*/
+    background-repeat: no-repeat; /*Usado para no repetir la imagen*/
+    background-size: cover; /*Tamaño del fondo*/
+    background-position: center; /*Posición del fondo*/
+    background-attachment: fixed; /*Posición de la imagen de fondo*/
+}
+/*Configuración para realizar la parte del formulario*/
+.login{
+    font-family: sans-serif; /*Tipo de texto*/
+    border:1px solid #e1e1e1; /*Borde*/
+    background-color: white; /*Fondo de la sección*/
+    border-radius: 5px; /*Borde de las esquinas*/
+    padding: 17px;
+    width: 390px;
+    position:absolute;
+    top: 50%; /*Parte superior de la posición*/
+    left: 50%; /*Parte izquierda de la posición*/
+    transform: translate(-50%,-50%); /*Reubicación del elemento*/
+
+}
+/*---------Configuración para el diseño del contenido del formulario---------*/
+/*Configuración para las entradas de texto*/
+.nombre_apellido{
+    font-size: 15px; /*Tamaño del texto*/
+    background-color:#e1e1e1fa;
+    width: 44%;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+}
+
+.correo_contraseña{
+    font-size: 15px;
+    background-color:#e1e1e1fa;
+    width: 94%;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+}
+
+/*Configuración para las entradas de fecha*/
+.fecha{
+    font-size: 15px;
+    width: 32%;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+/*Configuración para las entradas de géneros*/
+.mujer{
+    font-size: 15px;
+    width: 25%;
+    padding:10px;
+    border:1px solid black;
+    float:left; /*Ubicación del elemento*/
+    border-radius: 5px;
+}
+
+.hombre{
+    font-size: 15px;
+    width: 25%;
+    padding:10px;
+    border:1px solid black;
+    float: left;
+    border-radius: 5px;
+}
+
+.personalizado{
+    font-size: 15px;
+    width: 32%;
+    padding:10px;
+    border:1px solid black;
+    float:left;
+    border-radius: 5px;
+}
+
+/*Configuración para la formación de una ventana modal*/
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: all 500ms ease; /*Efecto de transición entre la página con la ventana*/
+    opacity: 0; /*Opacidad del elemento*/
+    visibility: hidden; /*Configuración de visibilidad del elemento*/
+}
+
+.modal2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*Configuración en caso de que el checkbox sea seleccionado*/
+#btn-modal:checked ~ .modal{
+    opacity: 1;
+    visibility: visible;
+}
+
+#btn-modal2:checked ~ .modal2{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Configuración para el diseño del cuadro de texto*/
+.contenedor{
+    width: 340px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin: 260px -269px; 
+    background: #fff;
+    box-shadow: 1px 7px 25px darkgray; /*Ubicación del la caja de la ventana modal*/
+    transition: all 500ms ease;
+    position: absolute;
+    align-items: center;
+    padding: 4px;
+}
+
+.contenedor2{
+    width: 340px;
+    height: 75px;
+    top: 50%;
+    left: 50%;
+    margin: 350px -350px; 
+    background: #fff;
+    box-shadow: 1px 7px 25px darkgray;
+    transition: all 500ms ease;
+    position: absolute;
+    align-items: center;
+    padding: 4px;
+}
+
+.contenedor label{
+    cursor: pointer; /*Cambia el cursor*/
+}
+
+.contenedor2 label{
+    cursor: pointer;
+}
+
+#btn-modal{
+    display: none; /*Configuración del display del checkbox (elimina el visto)*/
+}
+
+#btn-modal2{
+    display: none;
+}
+
+.lbl-modal{
+    cursor: pointer;
+}
+
+.lbl-modal2{
+    cursor: pointer;   
+}

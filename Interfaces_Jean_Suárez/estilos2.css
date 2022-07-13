@@ -1,0 +1,219 @@
+/*Archivo para la configuración de estilos CSS*/
+/*Realizado por: Jean Carlos Suárez*/
+
+/*Configuración del contenedor del menú*/
+#menu {
+    width: 890px; /*Tamaño de ancho*/
+    margin: 0 auto; /*Tamaño del margen*/
+    padding: 5px 10px; /*Tamaño de espacio de relleno*/
+    background: #1d1091; /*Color de fondo del contenedor*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Estilo de fuente*/
+    font-weight: normal; /*Tipo de letra*/
+    color: white; /*Color de texto*/
+}
+
+/*Configuración de los encabezados 1 y 2*/
+h1, h2 {
+    font-weight: normal; /*Tipo de letra*/
+}
+
+/*Configuración de los enlaces*/
+a {
+    color: white; /*Color de texto*/
+    text-decoration: none; /*Quita la línea subrayada del enlace*/
+}
+
+/*Configuración del bloque de navegación*/
+#navegacion {
+    height: 75px; /*Largo*/
+    width: 850px; /*Ancho*/
+    margin: -5px 10px 15px 30px; /*Tamaño del margen*/
+    display:inline-block; /*Establece el tipo del elemento html*/
+    background: #1d1091; /*Color de fondo*/
+}
+
+/*Configuración de los links dentro del bloque de navegación*/
+#enlace_navegacion {
+    width: 550px; /*Ancho*/
+    margin: -50px 0px 0px 315px; /*Margen*/
+    display:inline-block; /*Establece el tipo del elemento html*/
+    position: absolute; /*Posición de los enlaces*/
+    text-align:right; /*Orientación del texto*/
+    font-size: 10pt;
+}
+
+#enlace_navegacion a {
+    padding: 0px 20px; /*Tamaño del espacio de relleno*/
+}
+
+/*Configuración del centro del contenido*/
+#contenido {
+    width: 845px; /*Ancho*/
+    height: 845px; /*Largo*/
+    margin: -10px 0px -5px 2px; /*Margen*/
+    padding: 20px 20px; /*Tamaño de espacio de relleno*/
+    vertical-align: top; /*Orientación vertical*/
+    color: black; /*Color del texto*/
+    background: white; /*Fondo del contenido*/
+}
+
+/*Configuración de la sección de tres bloques*/
+#contenido_menu {
+    width: 864px; /*Ancho*/
+    margin: 0 auto; /*Margen*/
+    color: white; /*Color del texto*/
+}
+
+/*Configuración de los bloques de cajas azules*/
+.cajas {
+    width: 238px; /*Ancho*/
+    height: 215px; /*Largo*/
+    margin: 15px 15px 0px 0px; /*Margen*/
+    padding: 10px 15px 0px 15px; /*Tamaño del espacio de relleno*/
+    vertical-align: top; /*Alinación vertical del bloque*/
+    display: inline-block; /*Establece el tipo de elemento HTML*/
+    background: #2380cc; /*Color de fondo*/
+    font-size: 11px; /*Tamaño de la letra*/
+    text-align: justify; /*Alineación del texto*/
+}
+
+.cajas h2 {
+    margin: 0px 0px;
+    display: inline-block;
+    vertical-align: center;
+    font-size: 150%; /*Tamaño del texto*/
+    color: white;
+}
+
+/*Configuración de la imagen de herramienta*/
+.img_herramienta {
+    width: 30px; /*Ancho*/
+    background: #2380cc; /*Fondo*/
+    border-radius: 25px; /*Borde de la imagen (esquinas)*/
+}
+
+/*Configuración de los botones*/
+.botones {
+    height: 15px; /*Largo*/
+    width: 65px; /*Ancho*/
+    display: inline-block; /*Establece el tipo de elemento HTML*/
+    margin-top: 15px; /*Tamaño del margen superior*/
+    padding: 10px 25px; /*Tamaño del espacio de relleno*/
+    border-radius: 5px; /*Borde de la imagen (esquinas)*/
+    background: white; /*Fondo del botón*/
+    text-align: center; /*Alineación del texto*/
+    color: black; /*Color del texto*/
+}
+
+/*Configuración de la parte inferior del contenido principal*/
+.sub_contenido {
+    width: 887px; /*Ancho*/
+    height: 260px; /*Largo*/
+    margin: 0 auto; /*Margen*/
+    color: #052135; /*Color de texto*/
+    display: inline-block; /*Establece el tipo de elemento HTML*/
+    text-align: left; /*Alineación del texto*/
+    word-wrap: break-word; /*Especifica que las palabras que sean demasiado largas se deban cortar*/
+}
+
+/*Configuración para el encabezado de la caja*/
+#caja_header {
+    width: 330px; /*Ancho*/
+    margin-top: 25px; /*Margen superior*/
+    font-size: 10px; /*Tamaño de texto*/
+    color: black; /*Color de texto*/
+}
+
+/*Configuración de la imagen de la torre*/
+#torre {
+    float: left; /*Ubica a una posición relativa*/
+    width: 270px; /*Ancho*/
+    height: 162px; /*Largo*/
+    margin-left: -2px; /*Margen izquierdo*/
+}
+
+/*Configuración de la caja 1*/
+#caja1 {
+    width: 267px; /*Ancho*/
+    height: 270px; /*Largo*/
+    margin-left: 20px; /*Margen izquierdo*/
+    margin-top: -36px; /*Margen superior*/
+    display: inline-block; /*Establece el tipo de elemento HTML*/
+    position: relative; /*Posición de la caja 1*/
+}
+
+#caja1 p {
+    margin-top: 40px;
+    display: inline-block;
+    position: relative;
+    font-size: 8pt;
+}
+
+#caja1 a {
+    font-size: 10px;
+    color: purple;
+    text-decoration:underline;
+}
+
+/*Configuración de la caja 1*/
+#caja2 {
+    width: 232px; /*Ancho*/
+    height: 245px; /*Largo*/
+    margin-top: -64px; /*Margen superior*/
+    margin-right: 78px; /*Margen derecho*/
+    float: right; /*Mueve a una posición relativa*/
+    position: relative;  /*Posición de la caja 2*/
+    font-size: 9pt; /*Tamaño del texto*/
+} 
+
+#caja2 h2 {
+    margin-top: 30px;
+    font-size: 12pt;
+}
+
+#caja2 p{
+    font-size: 8pt;
+}
+
+/*Configuración del area de texto*/
+textarea {
+    width: 222px; /*Ancho*/
+    height: 86px; /*Largo*/
+    margin-bottom: 5px; /*Margen del espacio en la parte inferior*/
+    padding: 20px 22px; /*Tamaño del espacio de relleno*/
+    background: powderblue; /*Fondo del area de texto*/
+    font-family: Arial, Helvetica, sans-serif; /*Fuente de texto*/
+    font-style: italic; /*Texto e cursiva*/
+    resize: none; /*Reajustar tamaño*/
+    border: none; /*Borde*/
+}
+
+/*Configuración para la parte inferior del área de texto*/
+
+.bajo {
+    width: 0; /*Ancho*/ 
+    height: 0;  /*Largo*/
+    margin: -50px 30px; /*Margen*/
+    border-left: 12px solid transparent /*Color del borde izquierdo*/;
+    border-right: 12px solid transparent; /*Color del borde derecho*/
+    border-top: 12px solid powderblue; /*Color del borde superior*/
+}
+
+/*Configuración para la sección del footer*/
+#footer {
+    height: 25px; /*Largo*/
+    width: 885px; /*Ancho*/
+    margin-left: 2px; /*Margen izquierdo*/
+    padding: 20px 0px; /*Tamaño del espacio de relleno*/
+    display: block; /*Establece el tipo de elemnto HTML*/
+    color: black; /*Color del texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Fuente de texto*/
+    background: powderblue; /*Color de fondo*/
+    border-top: 1px solid #052135; /*Color y tamaño del borde superior*/
+    text-align: center; /*Alineación del texto*/
+}
+
+#footer a {
+    padding: 0px 15px;
+    color:#185580;
+}

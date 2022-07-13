@@ -1,0 +1,33 @@
+body{
+    color:red;
+    padding: 100px;
+    border: solid 1px black;
+}
+
+header{
+    background-color:yellow;
+}
+
+nav{
+    
+    display:inline-block;
+    background-color:green;
+    width: 50%;
+}
+
+article{
+    background-color:rgb(68, 68, 155);
+}
+
+footer{
+    background-color: brown;
+}
+
+li{
+    color:blue;
+    list-style: square;
+}
+
+footer{
+    display: none;
+}
